@@ -1,6 +1,18 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".envrc"
+hash = "1d26c74fd25a4c3dbb09e029fc609588da499fd4af2a41c88f6316c7f8c54cf1"
+
+[[files]]
+file = "flake.lock"
+hash = "645b7922cf581240d44e9edcf719a5b823499f67f895883ffafc1844c91c7b05"
+
+[[files]]
+file = "flake.nix"
+hash = "56d156a60a7f5cac9ae1de85ce25d113f1e09f224f5605c286c3b5f24a193c8f"
+
+[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "4209b7c1f768202b2f70ec5ab499b26ae9d4e73cf1e855099fe5fb23db0512e5"
 metafile = true
@@ -274,6 +286,10 @@ metafile = true
 file = "mods/yungs-extras.pw.toml"
 hash = "29cc344aa0d4b50c79b0e34b9f66e616239d93b68e54acadc6ab8a1171e39d9c"
 metafile = true
+
+[[files]]
+file = "nixos-configurations/mc-server.nix"
+hash = "ea4e1e8ba055dd6296cec879532b0b585a10dbb25c3eef8a72c2703d45d23750"
 
 [[files]]
 file = "resourcepacks/fresh-animations.pw.toml"
