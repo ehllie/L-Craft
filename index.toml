@@ -1,18 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".envrc"
-hash = "1d26c74fd25a4c3dbb09e029fc609588da499fd4af2a41c88f6316c7f8c54cf1"
-
-[[files]]
-file = "flake.lock"
-hash = "645b7922cf581240d44e9edcf719a5b823499f67f895883ffafc1844c91c7b05"
-
-[[files]]
-file = "flake.nix"
-hash = "56d156a60a7f5cac9ae1de85ce25d113f1e09f224f5605c286c3b5f24a193c8f"
-
-[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "4209b7c1f768202b2f70ec5ab499b26ae9d4e73cf1e855099fe5fb23db0512e5"
 metafile = true
@@ -158,6 +146,11 @@ hash = "cc5cf9ca8fe4ffbfbbd6a61fd9c4c92eb42acead5f4dd5a17dfcc74d0cd1d4b1"
 metafile = true
 
 [[files]]
+file = "mods/macos-input-fixes.pw.toml"
+hash = "6f608fc4e861f6156368b2a3b706645755030bf6a04dc1f59166c8b22cba872c"
+metafile = true
+
+[[files]]
 file = "mods/memoryleakfix.pw.toml"
 hash = "3c0945a312aca06a2185b00cb03ae482949b008d72614497148aa2df301af019"
 metafile = true
@@ -215,6 +208,11 @@ metafile = true
 [[files]]
 file = "mods/vanilla-refresh.pw.toml"
 hash = "65c6a19fc252bbdba213abe2fa182ec1859fc6072d7ae26b564cbe7fac836852"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "7990871e681fc5b0d67baf841c0c855480979c02bf05881f7683be110a286a01"
 metafile = true
 
 [[files]]
@@ -278,5 +276,11 @@ hash = "29cc344aa0d4b50c79b0e34b9f66e616239d93b68e54acadc6ab8a1171e39d9c"
 metafile = true
 
 [[files]]
-file = "nixos-configurations/mc-server.nix"
-hash = "1fe13587526a4df193389f55136608a326c2ed3da45cad75e2f8d8c9c6ce2358"
+file = "resourcepacks/fresh-animations.pw.toml"
+hash = "b57e4566ddd1f48bd1c3a726eed113eb1777fefb7ca1936173187c3fedb94d8f"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "1e9f9f7053c256baf766dddba7a1f929634f5629c6787ae4ff1f117159232c22"
+metafile = true

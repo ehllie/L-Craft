@@ -65,15 +65,29 @@
 
   services = {
     openssh.enable = true;
-    minecraft-servers = {
-      enable = true;
-      eula = true;
-      openFirewall = true;
-      servers.vanilla = {
+    minecraft-servers =
+      let
+        modpack = pkgs.fetchPackwizModpack {
+          url = "https://raw.githubusercontent.com/ehllie/L-Craft/main/pack.toml";
+          packHash = "";
+        };
+      in
+      {
         enable = true;
-        package = pkgs.vanillaServers.vanilla-1_20_4;
+        eula = true;
+        openFirewall = true;
+        servers.vanilla-plus = {
+          enable = true;
+          package = pkgs.fabricServers.fabric-1_20_4;
+          symlinks = {
+            "mods" = "${modpack}/mods";
+          };
+        };
+        servers.vanilla = {
+          enable = false;
+          package = pkgs.vanillaServers.vanilla-1_20_4;
+        };
       };
-    };
   };
 
   system.stateVersion = "23.11";
